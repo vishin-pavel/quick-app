@@ -1,0 +1,139 @@
+[
+    {
+        "name": "yiisoft/yii",
+        "version": "1.1.14",
+        "version_normalized": "1.1.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii.git",
+            "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii/zipball/f0fee98ee84f70f1f3652f65562c9670e919cb4e",
+            "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2013-08-12 00:12:08",
+        "bin": [
+            "framework/yiic"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Qiang Xue",
+                "email": "qiang.xue@gmail.com",
+                "homepage": "http://www.yiiframework.com/",
+                "role": "Founder and project lead"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Maurizio Domba",
+                "homepage": "http://mdomba.info/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "http://cebe.cc/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Wei Zhuo",
+                "email": "weizhuo@gmail.com",
+                "role": "Project site maintenance and development"
+            },
+            {
+                "name": "Sebastián Thierer",
+                "email": "sebas@artfos.com",
+                "role": "Component development"
+            },
+            {
+                "name": "Jeffrey Winesett",
+                "email": "jefftulsa@gmail.com",
+                "role": "Documentation and marketing"
+            },
+            {
+                "name": "Timur Ruziev",
+                "email": "resurtm@gmail.com",
+                "homepage": "http://resurtm.com/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com",
+                "role": "Core framework development"
+            }
+        ],
+        "description": "Yii Web Programming Framework",
+        "homepage": "http://www.yiiframework.com/",
+        "keywords": [
+            "framework",
+            "yii"
+        ]
+    },
+    {
+        "name": "crisu83/yiistrap",
+        "version": "1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Crisu83/yiistrap.git",
+            "reference": "abd12f7e663b162138587b8801f510d72a6daf4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Crisu83/yiistrap/zipball/abd12f7e663b162138587b8801f510d72a6daf4e",
+            "reference": "abd12f7e663b162138587b8801f510d72a6daf4e",
+            "shasum": ""
+        },
+        "require-dev": {
+            "codeception/codeception": "@stable",
+            "crisu83/yii-composer": ">=1.0.0",
+            "php": ">=5.3.0",
+            "yiisoft/yii": ">=1.1.13"
+        },
+        "time": "2013-11-13 09:28:59",
+        "type": "library",
+        "extra": {
+            "yii-install-writable": [
+                "tests/_log"
+            ]
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Christoffer Niska",
+                "email": "christoffer.niska@gmail.com",
+                "homepage": "http://www.cniska.net/"
+            },
+            {
+                "name": "Antonio Ramirez",
+                "email": "ramirez.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com/"
+            }
+        ],
+        "description": "Twitter Bootstrap for the Yii PHP framework.",
+        "keywords": [
+            "bootstrap",
+            "yii"
+        ]
+    }
+]

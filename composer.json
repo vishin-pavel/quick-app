@@ -1,0 +1,11 @@
+{
+  "authors": [
+    {
+      "name": "Pavel A Vishin",
+      "email": "pavel@vishin.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii": "1.1.14"
+  }
+}
