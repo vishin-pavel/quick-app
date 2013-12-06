@@ -31,6 +31,12 @@ class SiteController extends Controller
         if(Yii::app()->user->isGuest) $this->forward('/site/login');
 
         $ObjectDP = new EMongoDocumentDataProvider('Object', array(
+            'sort'=>array(
+                'attributes'=>array('date',
+                                    'data.Data.FormData.registrationULData.mails',
+                                    'data.Data.FormData.registrationULData.organization.inn'),
+                'defaultOrder'=>array('date'=>false)
+            ),
             'pagination'=>array(
                 'pageSize'=>20,
             ),

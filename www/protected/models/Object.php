@@ -33,7 +33,7 @@ class Object extends EMongoDocument{
     {
         return array(
             'data'  => 'Данные',
-            'date'  => 'Дата заполнения'
+            'date'  => 'Дата заполнения',
         );
     }
 } 

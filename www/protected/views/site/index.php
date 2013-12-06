@@ -1,6 +1,7 @@
 <div class="container">
     <?php $this->widget('bootstrap.widgets.TbGridView', array(
         'dataProvider' => $ObjectDP,
+        'filter'       => $ObjectDP->model,
         'columns' => array(
             array(
                 'name' => 'date',

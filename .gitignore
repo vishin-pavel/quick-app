@@ -2,3 +2,5 @@
 www/assets/
 protected/runtime/
 themes/classic/views/
+log/
+vendor/
