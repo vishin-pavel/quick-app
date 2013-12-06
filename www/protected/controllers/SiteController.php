@@ -34,8 +34,7 @@ class SiteController extends Controller
             'sort'=>array(
                 'attributes'=>array('date',
                                     'data.Data.FormData.registrationULData.mails',
-                                    'data.Data.FormData.registrationULData.organization.inn'),
-                'defaultOrder'=>array('date'=>false)
+                                    'data.Data.FormData.registrationULData.organization.inn')
             ),
             'pagination'=>array(
                 'pageSize'=>20,
